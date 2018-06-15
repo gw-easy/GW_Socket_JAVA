@@ -53,7 +53,7 @@ public class GW_ChatFrame extends JFrame implements ActionListener, ListSelectio
 		} catch (UnsupportedLookAndFeelException e) {
 			e.printStackTrace();
 		}
-		setIconImage(Toolkit.getDefaultToolkit().getImage("Images/socket.jpg"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("socket.jpg"));
 		setTitle("\u804A\u5929\u5BA4" + "  " + name);
 		setSize(450, 325);
 		GW_WinCerter.center(this);
